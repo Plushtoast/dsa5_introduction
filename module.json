@@ -3,7 +3,7 @@
     "title": "Das Schwarze Auge - Einstiegsabenteuer",
     "description": "",
     "author": "Plushtoast",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "systems": ["dsa5"],
     "minimumCoreVersion": "0.7.8",
     "compatibleCoreVersion": "0.7.9",
