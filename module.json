@@ -7,9 +7,9 @@
     "systems": ["dsa5"],
     "minimumCoreVersion": "0.7.8",
     "compatibleCoreVersion": "0.7.9",
-    "url": "https://github.com/Plushtoast/dsa5_bestiary",
-    "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5_bestiary/master/module.json",
-    "download": "https://github.com/Plushtoast/dsa5_bestiary/archive/master.zip",
+    "url": "https://github.com/Plushtoast/dsa5_introduction",
+    "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json",
+    "download": "https://github.com/Plushtoast/dsa5_introduction/archive/master.zip",
 
     "packs": [{
             "name": "introductionbiests",
