@@ -1,0 +1,36 @@
+{
+    "name": "dsa5-introduction",
+    "title": "Das Schwarze Auge - Einstiegsabenteuer",
+    "description": "",
+    "author": "Plushtoast",
+    "version": "0.0.1",
+    "systems": ["dsa5"],
+    "minimumCoreVersion": "0.7.8",
+    "compatibleCoreVersion": "0.7.9",
+    "url": "https://github.com/Plushtoast/dsa5_bestiary",
+    "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5_bestiary/master/module.json",
+    "download": "https://github.com/Plushtoast/dsa5_bestiary/archive/master.zip",
+
+    "packs": [{
+            "name": "introductionbiests",
+            "label": "Akteure",
+            "system": "dsa5",
+            "path": "./packs/introductionbiests.db",
+            "entity": "Actor",
+            "tags": [
+                "biests"
+            ]
+        },
+
+        {
+            "name": "introductionmaps",
+            "label": "Karten",
+            "system": "dsa5",
+            "path": "./packs/introductionmaps.db",
+            "entity": "Scene",
+            "tags": [
+                "scenes"
+            ]
+        }
+    ]
+}
