@@ -3,14 +3,21 @@
     "title": "Das Schwarze Auge - Einstiegsabenteuer",
     "description": "",
     "author": "Plushtoast",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "systems": ["dsa5"],
     "minimumCoreVersion": "0.7.8",
     "compatibleCoreVersion": "0.7.9",
     "url": "https://github.com/Plushtoast/dsa5_introduction",
     "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json",
     "download": "https://github.com/Plushtoast/dsa5_introduction/archive/master.zip",
-
+    "languages": [{
+        "lang": "de",
+        "name": "Deutsch",
+        "path": "lang/de.json"
+    }],
+    "esmodules": [
+        "modules/init.js"
+    ],
     "packs": [{
             "name": "introductionbiests",
             "label": "Akteure und Kreaturen",
@@ -21,7 +28,6 @@
                 "biests"
             ]
         },
-
         {
             "name": "introductionmaps",
             "label": "Karten",
@@ -30,6 +36,16 @@
             "entity": "Scene",
             "tags": [
                 "scenes"
+            ]
+        },
+        {
+            "name": "introductionjournal",
+            "label": "Einführung",
+            "system": "dsa5",
+            "path": "./packs/introductionjournal.db",
+            "entity": "JournalEntry",
+            "tags": [
+                "rules"
             ]
         }
     ]

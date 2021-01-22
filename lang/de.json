@@ -1,0 +1,6 @@
+{
+    "dsa5-introduction": {
+        "importHint": "Initialisiere das DSA5 Einsteiger Modul. Importiert die Map und alle Token.",
+        "importContent": "<h1>Import des DSA5 Einsteiger Moduls</h1><p>Importiere Map und Tokens des Einsteigersystems.</p>{defaultText}"
+    }
+}
