@@ -19,12 +19,12 @@ Hooks.once("init", function() {
 })
 
 Hooks.once("ready", function() {
-    if (!game.settings.get("dsa5-introduction", "initialized"))
+    if (!game.settings.get("dsa5-introduction", "initialized") && game.user.isGM)
         new InitializerForm().render()
 })
 
 class InitializerForm extends FormApplication {
     render() {
-        new game.dsa5.apps.DSA5Initializer("DSA5 introduction module Initialization", game.i18n.format("dsa5-introduction.importContent", { defaultText: game.i18n.localize("importDefault") }), "dsa5-inntroduction", "dsa5-introduction.introductionjournal").render(true)
+        new game.dsa5.apps.DSA5Initializer("DSA5 introduction module Initialization", game.i18n.format("dsa5-introduction.importContent", { defaultText: game.i18n.localize("importDefault") }), "dsa5-introduction", "dsa5-introduction.introductionjournal").render(true)
     }
 }
