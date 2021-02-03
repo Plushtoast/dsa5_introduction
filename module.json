@@ -9,7 +9,7 @@
     "compatibleCoreVersion": "0.7.9",
     "url": "https://github.com/Plushtoast/dsa5_introduction",
     "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json",
-    "download": "https://github.com/Plushtoast/dsa5_introduction/archive/master.zip",
+    "download": "https://github.com/Plushtoast/dsa5_introduction/archive/1.0.0.zip",
     "languages": [{
         "lang": "de",
         "name": "Deutsch",
