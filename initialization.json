@@ -1,1 +1,71 @@
-[]
+{
+    "folders": [],
+    "actors": "dsa5-introduction.introductionbiests",
+    "scenes": "dsa5-introduction.introductionmaps",
+    "items": [{
+            "name": "Heiltrank (QS3)",
+            "type": "equipment",
+            "data": {
+                "price": {
+                    "value": "60"
+                },
+                "quantity": {
+                    "value": 1
+                },
+                "weight": {
+                    "value": "0.3"
+                },
+                "effect": {
+                    "value": ""
+                },
+                "description": {
+                    "value": "<p>Der beste Freund des Helden ist sicher der Heiltrank. Grundstoff der meisten Heiltränke sind Heilkräuter wie Einbeeren oder Wirselkraut. Der Heiltrank kann wie der BALSAM oder der Heilsegen jemanden von der Schwelle des Todes retten.</p><p><b>Qualitätsstufen</b></p><p>1: Heilt bei Einnahme 1W3 LeP.</p><p>2: Heilt bei Einnahme 1W6 LeP.</p><p>3: Heilt bei Einnahme 1W6+2 LeP.</p><p>4: Heilt bei Einnahme 1W6+4 LeP.</p><p>5: Heilt bei Einnahme 1W6+6 LeP.</p><p>6: Heilt bei Einnahme 1W6+8 LeP.</p><p>Preis immer pro Stufe der Alchimica</p>"
+                },
+                "gmdescription": {
+                    "value": ""
+                },
+                "equipmentType": {
+                    "value": "alchemy"
+                },
+                "structure": {
+                    "max": 0,
+                    "value": 0
+                }
+            },
+            "img": "icons/containers/bags/sack-simple-leather-brown.webp"
+        },
+        {
+            "name": "Magischer Waffenbalsam (QS3)",
+            "type": "equipment",
+            "data": {
+                "price": {
+                    "value": "110"
+                },
+                "quantity": {
+                    "value": 1
+                },
+                "weight": {
+                    "value": "0.3"
+                },
+                "effect": {
+                    "value": ""
+                },
+                "description": {
+                    "value": "<p>Manche Wesenheiten wie Dämonen oder Elementare sind mit magischen Waffen leichter zu verletzen als mit einfachem, blankem Stahl. Da verzauberte Waffen jedoch sehr selten und ausgesprochen teuer sind, erfreut sich Waffenbalsam bei vielen reisenden Helden großer Beliebtheit, denn damit bestrichene Waffen werden zumindest kurzfristig mit ein wenig magischen Energien erfüllt. Es dauert 5 Kampfrunden, um eine Waffe mit Waffenbalsam einzureiben.</p><p><b>Qualitätsstufen</b></p><p>1: Waffe gilt für 5 Minuten als magisch.</p><p>2: Waffe gilt für 15 Minuten als magisch.</p><p>3: Waffe gilt für 2 Stunden als magisch, +1 TP.</p><p>4: Waffe gilt für 8 Stunden als magisch, +1 TP.</p><p>5: Waffe gilt für einen Tag als magisch und ist unzerbrechlich, +1 TP.</p><p>6: Waffe gilt für eine Woche als magisch und ist unzerbrechlich, +1 TP.</p><p>Preis immer pro Stufe der Alchimica</p>"
+                },
+                "gmdescription": {
+                    "value": ""
+                },
+                "equipmentType": {
+                    "value": "alchemy"
+                },
+                "structure": {
+                    "max": 0,
+                    "value": 0
+                }
+            },
+
+            "img": "icons/containers/bags/sack-simple-leather-brown.webp"
+        }
+    ]
+}
