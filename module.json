@@ -1,9 +1,9 @@
 {
     "name": "dsa5-introduction",
-    "title": "Das Schwarze Auge - Einstiegsabenteuer",
-    "description": "",
+    "title": "The dark eye - Introductionadventure",
+    "description": "A short introduction adventure for the dark eye 5th edition. Includes characters maps and adventure descriptions.",
     "author": "Plushtoast",
-    "version": "0.0.11",
+    "version": "1.0.0",
     "systems": ["dsa5"],
     "minimumCoreVersion": "0.7.8",
     "compatibleCoreVersion": "0.7.9",
