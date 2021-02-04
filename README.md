@@ -6,7 +6,7 @@ Currently in German only.
 Includes alternative maps for advanced gamemasters (improvise!). Have Fun.
 
 ## Installation - Auto Installer
-In the FVTT Game Systems Menu, click Install Module and enter the Manifest URL: https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json
+In the FVTT Game Systems Menu, click Install Module and enter the Manifest URL: `https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json`
 
 ## Recommended Modules
 The maps are preconfigured with background ambience sounds and weather effects. To make them work, you have to install the following modules.
