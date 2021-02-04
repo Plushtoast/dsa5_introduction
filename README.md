@@ -1,6 +1,8 @@
 # DSA/TDE 5 Introduction Adventure
-Maps and Token for the introduction adventure [Schnellstartregeln](https://www.ulisses-spiele.de/assets/download/DSA-Schnellstartregeln.pdf) from Ulisses Spiele.
+Maps and Token for the introduction adventure [Schnellstartregeln](https://www.ulisses-spiele.de/assets/download/DSA-Schnellstartregeln.pdf) from Ulisses Spiele for the virtual table top system [Foundry VTT](https://foundryvtt.com/).
+
 Currently in German only. 
+
 Includes alternative maps for advanced gamemasters (improvise!). Have Fun.
 
 ## Installation - Auto Installer
