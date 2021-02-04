@@ -1,6 +1,7 @@
 # DSA/TDE 5 Introduction Adventure
 Maps and Token for the introduction adventure [Schnellstartregeln](https://www.ulisses-spiele.de/assets/download/DSA-Schnellstartregeln.pdf) from Ulisses Spiele.
 Currently in German only. Have Fun.
+Includes alternative maps for advanced gamemasters (improvise!).
 
 ## Installation - Auto Installer
 In the FVTT Game Systems Menu, click Install Module and enter the Manifest URL: https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json
