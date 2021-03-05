@@ -2,9 +2,12 @@
 
 ![](https://repository-images.githubusercontent.com/329950316/2cde4f00-670b-11eb-8059-f100a823386d)
 
-Maps and Token for the introduction adventure [Schnellstartregeln](https://www.ulisses-spiele.de/assets/download/DSA-Schnellstartregeln.pdf) from Ulisses Spiele for the virtual table top system [Foundry VTT](https://foundryvtt.com/).
+Maps and Token for the introduction adventure 
+* de: [Schnellstartregeln](https://www.ulisses-spiele.de/assets/download/DSA-Schnellstartregeln.pdf) 
+* en: [Quick Start Rules](https://www.ulisses-ebooks.de/product/154720/The-Dark-Eye--Quickstart-rules&language=en)
+from Ulisses Spiele for the virtual table top system [Foundry VTT](https://foundryvtt.com/).
 
-Currently in German only. 
+Available in german and english.
 
 Includes alternative maps for advanced gamemasters (improvise!). Have Fun.
 
