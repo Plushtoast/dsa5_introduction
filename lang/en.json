@@ -1,0 +1,7 @@
+{
+    "dsa5-introduction": {
+        "name": "TDE5 Quick start rules",
+        "importHint": "Initialize the TDE5 Introduction module. Import the map and all tokens.",
+        "importContent": "<h1>Initialization of the TDE5 introducion module.</h1><p>Import map, tokens, and journal entries for the quick start adventure.</p><p>The map \"Trace in the forest\" contains ready made journal entries to play the introduction adventure. You can show the entries with the menu on the left side (<i class=\"fas fa-bookmark\"></i>). For more experienced players there are also alternate maps available to improvise. Tokens have to be placed manually on the map.</p><p>If you want to use the preconfigured weather and sound effects, make sure to install and activate the modules FXMaster and Game Audio Bundle<p>Have fun with your first adventure.</p>{defaultText}"
+    }
+}

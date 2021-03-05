@@ -1,0 +1,124 @@
+{
+    "folders": [{
+            "_id": "s5GESM6GOZwLiR56",
+            "name": "Rulebooks",
+            "type": "JournalEntry",
+            "sort": 6400000,
+            "flags": {},
+            "parent": null,
+            "sorting": "a",
+            "color": "#f3c50c"
+        },
+        {
+            "_id": "Xc0c0X7KhuIKLWwp",
+            "name": "TDE Quick-Start Rules",
+            "type": "JournalEntry",
+            "sort": 7400000,
+            "flags": {
+                "dsa5": {
+                    "parent": "Rulebooks"
+                }
+            },
+            "parent": "s5GESM6GOZwLiR56",
+            "sorting": "m",
+            "color": ""
+        },
+        {
+            "_id": "jzyUTorybGFPH07k",
+            "name": "Rules",
+            "type": "JournalEntry",
+            "sort": 7500000,
+            "flags": {
+                "dsa5": {
+                    "parent": "TDE Quick-Start Rules"
+                }
+            },
+            "parent": "Xc0c0X7KhuIKLWwp",
+            "sorting": "m",
+            "color": ""
+        },
+        {
+            "_id": "jAt7O0omfvZLT1ML",
+            "name": "Slavers of the Realmwood",
+            "type": "JournalEntry",
+            "sort": 7600000,
+            "flags": {
+                "dsa5": {
+                    "parent": "TDE Quick-Start Rules"
+                }
+            },
+            "parent": "Xc0c0X7KhuIKLWwp",
+            "sorting": "m",
+            "color": ""
+        }
+
+    ],
+    "actors": "dsa5-introduction.introductionenbiests",
+    "scenes": "dsa5-introduction.introductionenmaps",
+    "journal": "dsa5-introduction.introductionenjournal",
+    "items": [{
+            "name": "Healing Potion QL3",
+            "type": "consumable",
+            "data": {
+                "description": {
+                    "value": "<p>The healing potion is a hero’s best friend. The bases of most healing potions are curative herbs, like singleberry or wirsel leaf. A healing potion can bring a person back from the brink of death (see page 340), just like the spell Balsam or a Blessing of Healing.</p>"
+                },
+                "gmdescription": {
+                    "value": ""
+                },
+                "price": {
+                    "value": 60
+                },
+                "quantity": {
+                    "value": 1
+                },
+                "weight": {
+                    "value": 0.3
+                },
+                "effect": {
+                    "value": ""
+                },
+                "equipmentType": {
+                    "value": "healing"
+                },
+                "QLList": "Heals 1D3 LP at ingestion.\nHeals 1D6 LP at ingestion.\nHeals 1D6+2 LP at ingestion.\nHeals 1D6+4 LP at ingestion.\nHeals 1D6+6 LP at ingestion.\nHeals 1D6+8 LP at ingestion.",
+                "QL": 3,
+                "charges": 1,
+                "maxCharges": 1
+            },
+            "img": "icons/containers/bags/sack-simple-leather-brown.webp"
+        },
+        {
+            "name": "Weapon Balm QL3",
+            "type": "consumable",
+            "data": {
+                "description": {
+                    "value": "<p>It is easier to hurt creatures like demons and elementals by using magical weapons instead of those of simple steel. Enchanted weapons are rare and very expensive, so weapon balm is popular among travelers. Applied to a weapon, weapon balm imbues it with magical energy for a short time. Applying weapon balm takes 5 CR.</p>"
+                },
+                "gmdescription": {
+                    "value": ""
+                },
+                "price": {
+                    "value": 110
+                },
+                "quantity": {
+                    "value": 1
+                },
+                "weight": {
+                    "value": 0.3
+                },
+                "effect": {
+                    "value": ""
+                },
+                "equipmentType": {
+                    "value": "alchemy"
+                },
+                "QLList": "The weapon is magical for 5 minutes.\nThe weapon is magical for 15 minutes.\nThe weapon is magical for 2 hours and inflicts +1 DP.\nThe weapon is magical for 8 hours and inflicts +1 DP.\nThe weapon is magical and unbreakable for a day, and inflicts +1 DP.\nThe weapon is magical and unbreakable for a week, and inflicts +1 DP.",
+                "QL": 3,
+                "charges": 1,
+                "maxCharges": 1
+            },
+            "img": "icons/containers/bags/sack-simple-leather-brown.webp"
+        }
+    ]
+}

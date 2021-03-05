@@ -25,6 +25,6 @@ Hooks.once("ready", function() {
 
 class InitializerForm extends FormApplication {
     render() {
-        new game.dsa5.apps.DSA5Initializer("DSA5 introduction module Initialization", game.i18n.format("dsa5-introduction.importContent", { defaultText: game.i18n.localize("importDefault") }), "dsa5-introduction", "dsa5-introduction.introductionjournal").render(true)
+        new game.dsa5.apps.DSA5Initializer("DSA5 introduction module Initialization", game.i18n.format("dsa5-introduction.importContent", { defaultText: game.i18n.localize("importDefault") }), "dsa5-introduction", game.i18n.lang).render(true)
     }
 }

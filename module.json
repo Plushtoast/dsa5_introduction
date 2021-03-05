@@ -14,6 +14,10 @@
         "lang": "de",
         "name": "Deutsch",
         "path": "lang/de.json"
+    }, {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
     }],
     "dependencies": [{
         "name": "dsa5",
@@ -30,7 +34,8 @@
             "entity": "Actor",
             "tags": [
                 "biests"
-            ]
+            ],
+            "langs": ["de"]
         },
         {
             "name": "introductionmaps",
@@ -40,7 +45,8 @@
             "entity": "Scene",
             "tags": [
                 "scenes"
-            ]
+            ],
+            "langs": ["de"]
         },
         {
             "name": "introductionjournal",
@@ -50,7 +56,41 @@
             "entity": "JournalEntry",
             "tags": [
                 "rules"
-            ]
+            ],
+            "langs": ["de"]
+        },
+        {
+            "name": "introductionenbiests",
+            "label": "Actors and creatures",
+            "system": "dsa5",
+            "path": "./packs/introductionenbiests.db",
+            "entity": "Actor",
+            "tags": [
+                "biests"
+            ],
+            "langs": ["en"]
+        },
+        {
+            "name": "introductionenmaps",
+            "label": "Maps",
+            "system": "dsa5",
+            "path": "./packs/introductionenmaps.db",
+            "entity": "Scene",
+            "tags": [
+                "scenes"
+            ],
+            "langs": ["en"]
+        },
+        {
+            "name": "introductionenjournal",
+            "label": "Introduction",
+            "system": "dsa5",
+            "path": "./packs/introductionenjournal.db",
+            "entity": "JournalEntry",
+            "tags": [
+                "rules"
+            ],
+            "langs": ["en"]
         }
     ]
 }
