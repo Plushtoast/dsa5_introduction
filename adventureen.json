@@ -1,0 +1,30 @@
+{
+    "moduleName": "dsa5-introduction",
+    "journal": "dsa5-introduction.introductionenjournal",
+    "actors": "dsa5-introduction.introductionenbiests",
+    "scenes": "dsa5-introduction.introductionenmaps",
+    "chapters": [{
+            "name": "Readme",
+            "content": [
+                { "id": "prep", "name": "Preparation" },
+                { "id": "foundryUsage", "name": "TDE & Foundry" }
+            ]
+        },
+        {
+            "name": "Introduction Adventure",
+            "content": [
+                { "name": "Rules", "id": "Rules" },
+                { "name": "Slavers of the Realmwood", "id": "Slavers of the Realmwood", "scenes": ["Track in the forest"], "actors": ["Arbosh son of Angrax", "Carolan Calavanti", "Geron Bladebreaker", "Kurgh", "Layariel Treetopglint", "Mirhiban al’Orhima", "Orc", "Severin", "Tjalva Garheldtsdottir", "Wild Boar"] }
+            ]
+        }
+    ],
+
+    "modules": [
+        { "id": "gAudioBundle-1", "name": "Game Audio Bundle 1", "description": "Install this module to play background sounds on the battlemaps (f.e. birds)" },
+        { "id": "gAudioBundle-2", "name": "Game Audio Bundle 2", "description": "Install this module to play background sounds on the battlemaps (f.e. birds)" },
+        { "id": "gAudioBundle-3", "name": "Game Audio Bundle 3", "description": "Install this module to play background sounds on the battlemaps (f.e. birds)" },
+        { "id": "gAudioBundle-4", "name": "Game Audio Bundle 4", "description": "Install this module to play background sounds on the battlemaps (f.e. birds)" },
+        { "id": "fxmaster", "name": "FXMaster", "description": "Use preconfigured weather effects (rain, snow)" }
+    ],
+    "splash": "modules/dsa5-introduction/icons/journal/coveren.webp"
+}
