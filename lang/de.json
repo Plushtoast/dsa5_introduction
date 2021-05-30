@@ -3,6 +3,6 @@
         "name": "DSA5 Schnellstartregeln",
         "importHint": "Initialisiere das DSA5 Einsteiger Modul. Importiert die Map und alle Token.",
         "importContent": "<h1>Import des DSA5 Einsteiger Moduls</h1><p>Importiere Map, Tokens und Tagebucheinträge für das Schnellstartabenteuer.</p><p>Die Karte \"Spur im Wald\" enthält bereits die vorgefertigten Tagebucheinträge zum Führen des Einstiegsabenteuers. Die Einträge kannst du über das Menü am linken Rand (<i class=\"fas fa-bookmark\"></i>) einblenden. Für erfahrene Spieler gibt es auch alternative Karten zum Improvisieren. Die Tokens müssen händisch auf der Map platziert werden.</p><p>Falls du die vordefinierten Wettereffekte und Umgebungsgeräusche benutzten willst, stelle sicher, dass die Module FXMaster und Game Audio Bundle aktiviert sind.<p>Wir wünschen dir viel Spaß mit diesem Modul.</p>{defaultText}",
-        "welcome": "<h1>Einsteigerabenteuer</h1><p>Im Journal Directory findest du über den Journal Browser Zugang zu allen relevanten Informationen.</p>"
+        "welcome": "<h1>Einsteigerabenteuer</h1><p>Im Journal Directory findest du über den Journal Browser Zugang zu allen relevanten Informationen.</p><button class=\"openJournalBrowser\">Journal Browser</button>"
     }
 }

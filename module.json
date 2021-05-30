@@ -3,13 +3,13 @@
     "title": "The Dark Eye - Introduction Adventure",
     "description": "A short introduction adventure for the dark eye 5th edition. Includes characters maps and adventure descriptions.",
     "author": "Plushtoast",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "systems": ["dsa5"],
-    "minimumCoreVersion": "0.7.8",
-    "compatibleCoreVersion": "0.7.9",
+    "minimumCoreVersion": "0.8.5",
+    "compatibleCoreVersion": "0.8.6",
     "url": "https://github.com/Plushtoast/dsa5_introduction",
     "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json",
-    "download": "https://github.com/Plushtoast/dsa5_introduction/releases/download/1.1.1/dsa5_introduction-1.1.1.zip",
+    "download": "https://github.com/Plushtoast/dsa5_introduction/releases/download/1.1.2/dsa5_introduction-1.1.2.zip",
     "languages": [{
         "lang": "de",
         "name": "Deutsch",
@@ -31,66 +31,42 @@
             "label": "Akteure und Kreaturen",
             "system": "dsa5",
             "path": "./packs/introductionbiests.db",
-            "entity": "Actor",
-            "tags": [
-                "biests"
-            ],
-            "langs": ["de"]
+            "entity": "Actor"
         },
         {
             "name": "introductionmaps",
             "label": "Karten",
             "system": "dsa5",
             "path": "./packs/introductionmaps.db",
-            "entity": "Scene",
-            "tags": [
-                "scenes"
-            ],
-            "langs": ["de"]
+            "entity": "Scene"
         },
         {
             "name": "introductionjournal",
             "label": "Einführung",
             "system": "dsa5",
             "path": "./packs/introductionjournal.db",
-            "entity": "JournalEntry",
-            "tags": [
-                "rules"
-            ],
-            "langs": ["de"]
+            "entity": "JournalEntry"
         },
         {
             "name": "introductionenbiests",
             "label": "Actors and creatures",
             "system": "dsa5",
             "path": "./packs/introductionenbiests.db",
-            "entity": "Actor",
-            "tags": [
-                "biests"
-            ],
-            "langs": ["en"]
+            "entity": "Actor"
         },
         {
             "name": "introductionenmaps",
             "label": "Maps",
             "system": "dsa5",
             "path": "./packs/introductionenmaps.db",
-            "entity": "Scene",
-            "tags": [
-                "scenes"
-            ],
-            "langs": ["en"]
+            "entity": "Scene"
         },
         {
             "name": "introductionenjournal",
             "label": "Introduction",
             "system": "dsa5",
             "path": "./packs/introductionenjournal.db",
-            "entity": "JournalEntry",
-            "tags": [
-                "rules"
-            ],
-            "langs": ["en"]
+            "entity": "JournalEntry"
         }
     ]
 }

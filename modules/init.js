@@ -9,6 +9,17 @@ Hooks.once("init", function() {
         default: false,
         type: Boolean
     })
+
+    game.dsa5.config.localizedCompendiums.de.push(
+            "dsa5-introduction.introductionbiests",
+            "dsa5-introduction.introductionmaps",
+            "dsa5-introduction.introductionjournal"
+        )
+    game.dsa5.config.localizedCompendiums.en.push(
+            "dsa5-introduction.introductionenbiests",
+            "dsa5-introduction.introductionenmaps",
+            "dsa5-introduction.introductionenjournal"
+        )
 })
 
 Hooks.once("ready", function() {
