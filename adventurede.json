@@ -3,28 +3,75 @@
     "journal": "dsa5-introduction.introductionjournal",
     "actors": "dsa5-introduction.introductionbiests",
     "scenes": "dsa5-introduction.introductionmaps",
-    "chapters": [{
+    "chapters": [
+        {
             "name": "Readme",
             "content": [
-                { "id": "prep", "name": "Vorbereitung" },
-                { "id": "foundryUsage", "name": "DSA & Foundry" }
+                {
+                    "id": "prep",
+                    "name": "Vorbereitung"
+                },
+                {
+                    "id": "foundryUsage",
+                    "name": "DSA & Foundry"
+                }
             ]
         },
         {
             "name": "Einführungsabenteuer",
             "content": [
-                { "name": "Regeln", "id": "Regeln" },
-                { "name": "Die Sklavenhändler vom Reichsforst", "id": "Die Sklavenhändler vom Reichsforst", "scenes": ["Spur im Wald"], "actors": ["Arbosch Sohne des Angrax", "Carolan Calavanti", "Geron Waisenmacher", "Kurgh", "Layariel Wipfelglanz", "Mirhiban al’Orhima", "Ork", "Tjalva Garheltdottir", "Severin", "Wildschwein"] }
+                {
+                    "name": "Regeln",
+                    "id": "Regeln"
+                },
+                {
+                    "name": "Die Sklavenhändler vom Reichsforst",
+                    "id": "Die Sklavenhändler vom Reichsforst",
+                    "scenes": [
+                        "Spur im Wald"
+                    ],
+                    "actors": [
+                        "Arbosch Sohne des Angrax",
+                        "Carolan Calavanti",
+                        "Geron Waisenmacher",
+                        "Kurgh",
+                        "Layariel Wipfelglanz",
+                        "Mirhiban al’Orhima",
+                        "Ork",
+                        "Tjalva Garheltdottir",
+                        "Severin",
+                        "Wildschwein"
+                    ]
+                }
             ]
         }
     ],
-
     "modules": [
-        { "id": "gAudioBundle-1", "name": "Game Audio Bundle 1", "description": "Installiere dieses Modul um integrierte lokale Sounds auf den Battlemaps abspielen zu können (z.B. Vogelgezwitscher/Wind)" },
-        { "id": "gAudioBundle-2", "name": "Game Audio Bundle 2", "description": "Installiere dieses Modul um integrierte lokale Sounds auf den Battlemaps abspielen zu können (z.B. Vogelgezwitscher/Wind)" },
-        { "id": "gAudioBundle-3", "name": "Game Audio Bundle 3", "description": "Installiere dieses Modul um integrierte lokale Sounds auf den Battlemaps abspielen zu können (z.B. Vogelgezwitscher/Wind)" },
-        { "id": "gAudioBundle-4", "name": "Game Audio Bundle 4", "description": "Installiere dieses Modul um integrierte lokale Sounds auf den Battlemaps abspielen zu können (z.B. Vogelgezwitscher/Wind)" },
-        { "id": "fxmaster", "name": "FXMaster", "description": "Benutze die vorkonfigurierten Wettereffekte auf den Battlemaps (Nebel/Regen)" }
+        {
+            "id": "gAudioBundle-1",
+            "name": "Game Audio Bundle 1",
+            "description": "Installiere dieses Modul um integrierte lokale Sounds auf den Battlemaps abspielen zu können (z.B. Vogelgezwitscher/Wind)"
+        },
+        {
+            "id": "gAudioBundle-2",
+            "name": "Game Audio Bundle 2",
+            "description": "Installiere dieses Modul um integrierte lokale Sounds auf den Battlemaps abspielen zu können (z.B. Vogelgezwitscher/Wind)"
+        },
+        {
+            "id": "gAudioBundle-3",
+            "name": "Game Audio Bundle 3",
+            "description": "Installiere dieses Modul um integrierte lokale Sounds auf den Battlemaps abspielen zu können (z.B. Vogelgezwitscher/Wind)"
+        },
+        {
+            "id": "gAudioBundle-4",
+            "name": "Game Audio Bundle 4",
+            "description": "Installiere dieses Modul um integrierte lokale Sounds auf den Battlemaps abspielen zu können (z.B. Vogelgezwitscher/Wind)"
+        },
+        {
+            "id": "fxmaster",
+            "name": "FXMaster",
+            "description": "Benutze die vorkonfigurierten Wettereffekte auf den Battlemaps (Nebel/Regen)"
+        }
     ],
     "splash": "modules/dsa5-introduction/icons/journal/coverde.webp"
 }

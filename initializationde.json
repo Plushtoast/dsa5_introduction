@@ -1,57 +1,5 @@
 {
-    "foldeers": [{
-            "_id": "too1jP3W2BhmtlN7",
-            "name": "Regelwerke",
-            "type": "JournalEntry",
-            "sort": 1300000,
-            "flags": {},
-            "parent": null,
-            "sorting": "a",
-            "color": "#d8ac0e"
-        },
-        {
-            "_id": "1WmcfPLCvwn8pbbI",
-            "name": "DSA Schnellstartregeln",
-            "type": "JournalEntry",
-            "sort": 1600000,
-            "flags": {
-                "dsa5": {
-                    "parent": "Regelwerke"
-                }
-            },
-            "parent": "too1jP3W2BhmtlN7",
-            "sorting": "m",
-            "color": ""
-        },
-        {
-            "_id": "XjIKGWoPJ25cVl6g",
-            "name": "Die Sklavenhändler vom Reichsforst",
-            "type": "JournalEntry",
-            "sort": 3400000,
-            "flags": {
-                "dsa5": {
-                    "parent": "DSA Schnellstartregeln"
-                }
-            },
-            "parent": "1WmcfPLCvwn8pbbI",
-            "sorting": "m",
-            "color": ""
-        },
-        {
-            "_id": "x2abv4L4ndwCTAar",
-            "name": "Regeln",
-            "type": "JournalEntry",
-            "sort": 3300000,
-            "flags": {
-                "dsa5": {
-                    "parent": "DSA Schnellstartregeln"
-                }
-            },
-            "parent": "1WmcfPLCvwn8pbbI",
-            "sorting": "m",
-            "color": ""
-        }
-    ],
+
     "actors": "dsa5-introduction.introductionbiests",
     "scenes": "dsa5-introduction.introductionmaps",
     "journal": "dsa5-introduction.introductionjournal",
