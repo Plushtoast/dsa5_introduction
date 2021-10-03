@@ -15,6 +15,9 @@ Includes alternative maps for advanced gamemasters (improvise!). Have Fun.
 ## Installation - Auto Installer
 In the FVTT Game Systems Menu, click Install Module and enter the Manifest URL: `https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json`
 
+## Notes
+Do not migrate the actors unless you want to break them.
+
 ## Recommended Modules
 The maps are preconfigured with background ambience sounds and weather effects. To make them work, you have to install the following modules.
 - [Game Audio Bundle 1](https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-1) - Adds a lot of free ambient sounds ready for usage on any map.
