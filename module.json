@@ -3,13 +3,13 @@
     "title": "The Dark Eye 5th Ed. - Introduction Adventure",
     "description": "A short introduction adventure for the dark eye 5th edition. Includes characters maps and adventure descriptions.",
     "author": "Plushtoast",
-    "version": "2.4.0",
+    "version": "3.0.0",
     "system": ["dsa5"],
-    "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "0.8.9",
+    "minimumCoreVersion": "9.236",
+    "compatibleCoreVersion": "9",
     "url": "https://github.com/Plushtoast/dsa5_introduction",
     "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json",
-    "download": "https://github.com/Plushtoast/dsa5_introduction/releases/download/2.4.0/dsa5_introduction-2.4.0.zip",
+    "download": "https://github.com/Plushtoast/dsa5_introduction/releases/download/3.0.0/dsa5_introduction-3.0.0.zip",
     "languages": [{
         "lang": "de",
         "name": "Deutsch",
@@ -31,42 +31,42 @@
             "label": "Akteure und Kreaturen",
             "system": "dsa5",
             "path": "./packs/introductionbiests.db",
-            "entity": "Actor"
+            "type": "Actor"
         },
         {
             "name": "introductionmaps",
             "label": "Karten",
             "system": "dsa5",
             "path": "./packs/introductionmaps.db",
-            "entity": "Scene"
+            "type": "Scene"
         },
         {
             "name": "introductionjournal",
             "label": "Einführung",
             "system": "dsa5",
             "path": "./packs/introductionjournal.db",
-            "entity": "JournalEntry"
+            "type": "JournalEntry"
         },
         {
             "name": "introductionenbiests",
             "label": "Actors and creatures",
             "system": "dsa5",
             "path": "./packs/introductionenbiests.db",
-            "entity": "Actor"
+            "type": "Actor"
         },
         {
             "name": "introductionenmaps",
             "label": "Maps",
             "system": "dsa5",
             "path": "./packs/introductionenmaps.db",
-            "entity": "Scene"
+            "type": "Scene"
         },
         {
             "name": "introductionenjournal",
             "label": "Introduction",
             "system": "dsa5",
             "path": "./packs/introductionenjournal.db",
-            "entity": "JournalEntry"
+            "type": "JournalEntry"
         }
     ]
 }
