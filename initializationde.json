@@ -34,7 +34,7 @@
                 "maxCharges": 1
             },
 
-            "img": "icons/containers/bags/sack-simple-leather-brown.webp"
+            "img": "systems/dsa5/icons/categories/Equipment.webp"
 
         },
         {
@@ -67,18 +67,7 @@
                 "charges": 1,
                 "maxCharges": 1
             },
-            "sort": 10200000,
-            "flags": {
-                "exportSource": {
-                    "world": "test",
-                    "system": "dsa5",
-                    "coreVersion": "0.7.9",
-                    "systemVersion": "1.1.3"
-                }
-            },
-            "img": "systems/dsa5/icons/categories/Equipment.webp",
-            "effects": [],
-            "_id": "qA5Rnm3p6qte7O0v"
+            "img": "systems/dsa5/icons/categories/Equipment.webp"
         }
 
     ]

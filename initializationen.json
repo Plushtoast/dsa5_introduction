@@ -32,7 +32,7 @@
                 "charges": 1,
                 "maxCharges": 1
             },
-            "img": "icons/containers/bags/sack-simple-leather-brown.webp"
+            "img": "systems/dsa5/icons/categories/Equipment.webp"
         },
         {
             "name": "Weapon Balm QL3",
@@ -64,7 +64,7 @@
                 "charges": 1,
                 "maxCharges": 1
             },
-            "img": "icons/containers/bags/sack-simple-leather-brown.webp"
+            "img": "systems/dsa5/icons/categories/Equipment.webp"
         }
     ]
 }
