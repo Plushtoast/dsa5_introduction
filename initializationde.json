@@ -3,10 +3,11 @@
     "actors": "dsa5-introduction.introductionbiests",
     "scenes": "dsa5-introduction.introductionmaps",
     "journal": "dsa5-introduction.introductionjournal",
+    "initialScene": "Spur im Wald",
     "items": [{
             "name": "Heiltrank (QS3)",
             "type": "consumable",
-            "data": {
+            "system": {
                 "description": {
                     "value": "<p>Der beste Freund des Helden ist sicher der Heiltrank. Grundstoff der meisten Heiltränke sind Heilkräuter wie Einbeeren oder Wirselkraut. Der Heiltrank kann wie der BALSAM oder der Heilsegen jemanden von der Schwelle des Todes retten.</p>"
                 },
@@ -40,7 +41,7 @@
         {
             "name": "Magischer Waffenbalsam (QS3)",
             "type": "consumable",
-            "data": {
+            "system": {
                 "description": {
                     "value": "<p>Manche Wesenheiten wie Dämonen oder Elementare sind mit magischen Waffen leichter zu verletzen als mit einfachem, blankem Stahl. Da verzauberte Waffen jedoch sehr selten und ausgesprochen teuer sind, erfreut sich Waffenbalsam bei vielen reisenden Helden großer Beliebtheit, denn damit bestrichene Waffen werden zumindest kurzfristig mit ein wenig magischen Energien erfüllt. Es dauert 5 Kampfrunden, um eine Waffe mit Waffenbalsam einzureiben.</p>"
                 },

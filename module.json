@@ -1,28 +1,21 @@
 {
-    "name": "dsa5-introduction",
     "title": "The Dark Eye 5th Ed. - Introduction Adventure",
     "description": "A short introduction adventure for the dark eye 5th edition. Includes characters maps and adventure descriptions.",
-    "author": "Plushtoast",
-    "version": "3.0.1",
-    "system": ["dsa5"],
-    "minimumCoreVersion": "9.236",
-    "compatibleCoreVersion": "9",
+    "version": "4.0.0",
     "url": "https://github.com/Plushtoast/dsa5_introduction",
     "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json",
-    "download": "https://github.com/Plushtoast/dsa5_introduction/releases/download/3.0.1/dsa5_introduction-3.0.1.zip",
+    "download": "https://github.com/Plushtoast/dsa5_introduction/releases/download/4.0.0/dsa5_introduction-4.0.0.zip",
     "languages": [{
-        "lang": "de",
-        "name": "Deutsch",
-        "path": "lang/de.json"
-    }, {
-        "lang": "en",
-        "name": "English",
-        "path": "lang/en.json"
-    }],
-    "dependencies": [{
-        "name": "dsa5",
-        "type": "system"
-    }],
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "lang/de.json"
+        },
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
     "esmodules": [
         "modules/init.js"
     ],
@@ -30,43 +23,75 @@
             "name": "introductionbiests",
             "label": "Akteure und Kreaturen",
             "system": "dsa5",
-            "path": "./packs/introductionbiests.db",
-            "type": "Actor"
+            "path": "packs/introductionbiests.db",
+            "type": "Actor",
+            "private": true,
+            "flags": {"dsalang": "de"}
         },
         {
             "name": "introductionmaps",
             "label": "Karten",
             "system": "dsa5",
-            "path": "./packs/introductionmaps.db",
-            "type": "Scene"
+            "path": "packs/introductionmaps.db",
+            "type": "Scene",
+            "private": true,
+            "flags": {"dsalang": "de"}
         },
         {
             "name": "introductionjournal",
             "label": "Einführung",
             "system": "dsa5",
-            "path": "./packs/introductionjournal.db",
-            "type": "JournalEntry"
+            "path": "packs/introductionjournal.db",
+            "type": "JournalEntry",
+            "private": true,
+            "flags": {"dsalang": "de"}
         },
         {
             "name": "introductionenbiests",
             "label": "Actors and creatures",
             "system": "dsa5",
-            "path": "./packs/introductionenbiests.db",
-            "type": "Actor"
+            "path": "packs/introductionenbiests.db",
+            "type": "Actor",
+            "private": true,
+            "flags": {"dsalang": "en"}
         },
         {
             "name": "introductionenmaps",
             "label": "Maps",
             "system": "dsa5",
-            "path": "./packs/introductionenmaps.db",
-            "type": "Scene"
+            "path": "packs/introductionenmaps.db",
+            "type": "Scene",
+            "private": true,
+            "flags": {"dsalang": "en"}
         },
         {
             "name": "introductionenjournal",
             "label": "Introduction",
             "system": "dsa5",
-            "path": "./packs/introductionenjournal.db",
-            "type": "JournalEntry"
+            "path": "packs/introductionenjournal.db",
+            "type": "JournalEntry",
+            "private": true,
+            "flags": {"dsalang": "en"}
         }
-    ]
+    ],
+    "id": "dsa5-introduction",
+    "authors": [{
+        "name": "Plushtoast"
+    }],
+    "relationships": {
+        "systems": [{
+            "id": "dsa5",
+            "type": "system",
+            "compatibility": {
+                "minimum": "4.0.0"
+            }
+        }]
+    },
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10",
+        "maximum": "10"
+    },
+    "name": "dsa5-introduction",
+    "minimumCoreVersion": "10"
 }

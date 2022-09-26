@@ -2,10 +2,11 @@
     "actors": "dsa5-introduction.introductionenbiests",
     "scenes": "dsa5-introduction.introductionenmaps",
     "journal": "dsa5-introduction.introductionenjournal",
+    "initialScene": "Track in the forest",
     "items": [{
             "name": "Healing Potion QL3",
             "type": "consumable",
-            "data": {
+            "system": {
                 "description": {
                     "value": "<p>The healing potion is a hero’s best friend. The bases of most healing potions are curative herbs, like singleberry or wirsel leaf. A healing potion can bring a person back from the brink of death (see page 340), just like the spell Balsam or a Blessing of Healing.</p>"
                 },
@@ -37,7 +38,7 @@
         {
             "name": "Weapon Balm QL3",
             "type": "consumable",
-            "data": {
+            "system": {
                 "description": {
                     "value": "<p>It is easier to hurt creatures like demons and elementals by using magical weapons instead of those of simple steel. Enchanted weapons are rare and very expensive, so weapon balm is popular among travelers. Applied to a weapon, weapon balm imbues it with magical energy for a short time. Applying weapon balm takes 5 CR.</p>"
                 },
