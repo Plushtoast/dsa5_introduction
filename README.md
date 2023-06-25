@@ -11,6 +11,7 @@ from Ulisses Spiele for the virtual table top system [Foundry VTT](https://found
 Available in german and english.
 
 Includes alternative maps for advanced gamemasters (improvise!). Have Fun.
+Special thanks for VT-Toms interpretation of the intro adventure map.
 
 ## Installation - Auto Installer
 In the FVTT Game Systems Menu, click Install Module and enter the Manifest URL: `https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json`

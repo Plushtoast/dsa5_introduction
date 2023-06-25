@@ -1,104 +1,166 @@
 {
-    "title": "The Dark Eye 5th Ed. - Introduction Adventure",
-    "description": "A short introduction adventure for the dark eye 5th edition. Includes characters maps and adventure descriptions.",
-    "version": "5.0.0",
-    "url": "https://github.com/Plushtoast/dsa5_introduction",
-    "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json",
-    "download": "https://github.com/Plushtoast/dsa5_introduction/releases/download/5.0.0/dsa5_introduction-5.0.0.zip",
-    "languages": [{
-            "lang": "de",
-            "name": "Deutsch",
-            "path": "lang/de.json"
-        },
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        }
-    ],
-    "esmodules": [
-        "modules/init.js"
-    ],
-    "packs": [{
-            "name": "introductionbiests",
-            "label": "Akteure und Kreaturen",
-            "system": "dsa5",
-            "path": "packs/introductionbiests.db",
-            "type": "Actor",
-            "visibility": "assistant",
-            "flags": {"dsalang": "de"}
-        },
-        {
-            "name": "introductionmaps",
-            "label": "Karten",
-            "system": "dsa5",
-            "path": "packs/introductionmaps.db",
-            "type": "Scene",
-            "visibility": "assistant",
-            "flags": {"dsalang": "de"}
-        },
-        {
-            "name": "introductionjournal",
-            "label": "Einführung",
-            "system": "dsa5",
-            "path": "packs/introductionjournal.db",
-            "type": "JournalEntry",
-            "visibility": "assistant",
-            "flags": {"dsalang": "de"}
-        },
-        {
-            "name": "introductionenbiests",
-            "label": "Actors and creatures",
-            "system": "dsa5",
-            "path": "packs/introductionenbiests.db",
-            "type": "Actor",
-            "visibility": "assistant",
-            "flags": {"dsalang": "en"}
-        },
-        {
-            "name": "introductionenmaps",
-            "label": "Maps",
-            "system": "dsa5",
-            "path": "packs/introductionenmaps.db",
-            "type": "Scene",
-            "visibility": "assistant",
-            "flags": {"dsalang": "en"}
-        },
-        {
-            "name": "introductionenjournal",
-            "label": "Introduction",
-            "system": "dsa5",
-            "path": "packs/introductionenjournal.db",
-            "type": "JournalEntry",
-            "visibility": "assistant",
-            "flags": {"dsalang": "en"}
-        }
-    ],
-    "id": "dsa5-introduction",
-    "authors": [{
-        "name": "Plushtoast"
-    }],
-    "relationships": {
-        "systems": [{
-            "id": "dsa5",
-            "type": "system",
-            "compatibility": {
-                "minimum": "5.0.0"
-            }
-        }]
+  "title": "The Dark Eye 5th Ed. - Introduction Adventure",
+  "description": "A short introduction adventure for the dark eye 5th edition. Includes characters maps and adventure descriptions.",
+  "version": "5.1.0",
+  "url": "https://github.com/Plushtoast/dsa5_introduction",
+  "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json",
+  "download": "https://github.com/Plushtoast/dsa5_introduction/releases/download/5.1.0/dsa5_introduction-5.1.0.zip",
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
     },
-    "compatibility": {
-        "minimum": "11",
-        "verified": "11",
-        "maximum": "11"
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "esmodules": [
+    "modules/init.js"
+  ],
+  "packs": [
+    {
+      "name": "introductionbiests",
+      "label": "Akteure und Kreaturen",
+      "system": "dsa5",
+      "path": "packs/introductionbiests.db",
+      "type": "Actor",
+      "flags": {
+        "dsalang": "de"
+      },
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
-    "name": "dsa5-introduction",
-    "minimumCoreVersion": "11",
-    "media": [
-        {
-            "type": "setup",
-            "url": "modules/dsa5-introduction/icons/thumbs/setup.webp",
-            "thumbnail": "modules/dsa5-introduction/icons/thumbs/setup-thumb.webp"
+    {
+      "name": "introductionmaps",
+      "label": "Karten",
+      "system": "dsa5",
+      "path": "packs/introductionmaps.db",
+      "type": "Scene",
+      "flags": {
+        "dsalang": "de"
+      },
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "introductionjournal",
+      "label": "Einführung",
+      "system": "dsa5",
+      "path": "packs/introductionjournal.db",
+      "type": "JournalEntry",
+      "flags": {
+        "dsalang": "de"
+      },
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "introductionenbiests",
+      "label": "Actors and creatures",
+      "system": "dsa5",
+      "path": "packs/introductionenbiests.db",
+      "type": "Actor",
+      "flags": {
+        "dsalang": "en"
+      },
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "introductionenmaps",
+      "label": "Maps",
+      "system": "dsa5",
+      "path": "packs/introductionenmaps.db",
+      "type": "Scene",
+      "flags": {
+        "dsalang": "en"
+      },
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "introductionenjournal",
+      "label": "Introduction",
+      "system": "dsa5",
+      "path": "packs/introductionenjournal.db",
+      "type": "JournalEntry",
+      "flags": {
+        "dsalang": "en"
+      },
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "id": "dsa5-introduction",
+  "authors": [
+    {
+      "name": "Plushtoast"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dsa5",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
         }
+      }
     ]
+  },
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "name": "dsa5-introduction",
+  "minimumCoreVersion": "11",
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/dsa5-introduction/icons/thumbs/setup.webp",
+      "thumbnail": "modules/dsa5-introduction/icons/thumbs/setup-thumb.webp"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Actor",
+      "sorting": "m",
+      "packs": [
+        "introductionbiests",
+        "introductionenbiests"
+      ]
+    },
+    {
+      "name": "Scene",
+      "sorting": "m",
+      "packs": [
+        "introductionmaps",
+        "introductionenmaps"
+      ]
+    },
+    {
+      "name": "JournalEntry",
+      "sorting": "m",
+      "packs": [
+        "introductionjournal",
+        "introductionenjournal"
+      ]
+    }
+  ]
 }
