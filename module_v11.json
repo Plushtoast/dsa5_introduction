@@ -1,10 +1,10 @@
 {
   "title": "The Dark Eye 5th Ed. - Introduction Adventure",
   "description": "A short introduction adventure for the dark eye 5th edition. Includes characters maps and adventure descriptions.",
-  "version": "6.0.0",
+  "version": "5.3.1",
   "url": "https://github.com/Plushtoast/dsa5_introduction",
   "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5_introduction/master/module.json",
-  "download": "https://github.com/Plushtoast/dsa5_introduction/releases/download/6.0.0/dsa5_introduction-6.0.0.zip",
+  "download": "https://github.com/Plushtoast/dsa5_introduction/releases/download/5.2.1/dsa5_introduction-5.2.1.zip",
   "languages": [
     {
       "lang": "de",
@@ -118,7 +118,7 @@
         "id": "dsa5",
         "type": "system",
         "compatibility": {
-          "minimum": "6.0.0"
+          "minimum": "5.2.0"
         }
       }
     ]
@@ -137,22 +137,15 @@
   ],
   "packFolders": [
     {
-      "name": "Rules",
+      "name": "Introduction Adventure",
       "sorting": "m",
-      "packs": [],
-      "folders": [
-        {
-          "name": "Introduction Adventure",
-          "sorting": "m",
-          "packs": [
-            "introductionbiests",
-            "introductionmaps",
-            "introductionjournal",
-            "introductionenbiests",
-            "introductionenmaps",
-            "introductionenjournal"
-          ]
-        }
+      "packs": [
+        "introductionbiests",
+        "introductionmaps",
+        "introductionjournal",
+        "introductionenbiests",
+        "introductionenmaps",
+        "introductionenjournal"
       ]
     }
   ]

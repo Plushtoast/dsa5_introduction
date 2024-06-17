@@ -31,4 +31,6 @@ Hooks.once("ready", function() {
         })
     }
 
+    game.dsa5.apps.DSA5_Utility.registerMasterTokens("dsa5-introduction")
+
 })
