@@ -124,9 +124,9 @@
     ]
   },
   "compatibility": {
-    "minimum": "12",
-    "verified": "12",
-    "maximum": "12"
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
   },
   "media": [
     {
