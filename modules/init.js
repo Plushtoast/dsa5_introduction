@@ -13,7 +13,7 @@ Hooks.once("init", function() {
 
 Hooks.once("ready", function() {
     if (!game.settings.get("dsa5-introduction", "firstTimeStart")) {
-        let msg = game.i18n.localize('dsa5-introduction.welcome')
+        let msg = _loc('dsa5-introduction.welcome')
         ChatMessage.create(game.dsa5.apps.DSA5_Utility.chatDataSetup(msg))
         game.settings.set("dsa5-introduction", "firstTimeStart", true)
     }
